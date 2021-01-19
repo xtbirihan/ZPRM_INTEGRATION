@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Wallet Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRT_006_FG_WALLETTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRT_006_FG_WALLET</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZRT_006_CREATE_WALLET</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Wallet Create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>WALLETDATA</PARAMETER>
+       <TYP>ZRT_006_T_WLT_I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_TRANSACTION_NO</PARAMETER>
+       <TYP>ZRT_006_T_WLT_I-TRANSACTION_NO</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>WALLETDATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Wallet Item</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TRANSACTION_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Client</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZRT_006_WALLET_CREATE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Wallet Create</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>WALLETDATA</PARAMETER>
+       <DBSTRUCT>ZRT_006_T_WLT_I</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>WALLETDATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Wallet Item</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZRT_006_WALLET_READ_ENTITY</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Wallet Read Single Entity</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_TRANSACTION_NO</PARAMETER>
+       <TYP>ZRT_006_D_TRANS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>WALLETDATA</PARAMETER>
+       <TYP>ZRT_006_T_WLT_I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_TRANSACTION_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transaction Id</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WALLETDATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Wallet Item</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZRT_006_WALLET_SUM_UPDATE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Wallet Sum Update</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

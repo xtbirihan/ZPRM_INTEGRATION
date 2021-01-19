@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>PRM Integration</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRT_006_PRMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRT_006_PRM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZRT_006_MESSAGES</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>PRM Integration Messages With Date</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DEALER_ID</PARAMETER>
+       <TYP>ZRT_006_T_PRM-DEALER_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>ZRT_006_TT_MSG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DEALER_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dealer ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZRT_006_PRM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>PRM Integration</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_INPUT</PARAMETER>
+       <TYP>ZRT_006_TT_PRM_SRV</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PRM Service</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

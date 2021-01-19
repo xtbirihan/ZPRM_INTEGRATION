@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>Transport Data</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>FUGR</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>ECOP</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>FUGR</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>ECOP</ORG_MAIN_NAME>
+    <PROGRAMNAME>SAPLECOP</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>SAPLECOP</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\FU:ECOP_TRANSPORT_ORGUNIT_DATA\SE:BEGIN\EI</FULL_NAME>
+     <SOURCE>
+      <item/>
+      <item>  DATA lV_DARK_UPDATE TYPE CHAR1.</item>
+      <item>*  BREAK gkara.</item>
+      <item>  SELECt SINGLE COUNT( * ) FROM zrt_006_t_exp.</item>
+      <item>  IF sy-subrc eq 0.</item>
+      <item>    DARK_TRANSPORT = abap_true.</item>
+      <item>  ENDIF.</item>
+     </SOURCE>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056AADF901EEAB5CB8BE082B882E4</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056AADF901EEAB5CB8BE082B882E4</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>024</LENGTH>
+       <TEXT>Transport Data</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZRT_ECOP_TRANSPORT_ORGUNIT_DAT</OBJ_NAME>
+     <CONCEPT>005056AADF901EEAB5CB8BE082B882E4</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

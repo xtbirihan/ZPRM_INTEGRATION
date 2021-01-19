@@ -1,0 +1,17 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"ZRT_006_T_PRM",
+"ZRT_006_T_WLT_I"
+],
+"ASSOCIATED":
+[],
+"BASE":
+[],
+"ANNO_REF":
+[],
+"VERSION":0
+}
+}

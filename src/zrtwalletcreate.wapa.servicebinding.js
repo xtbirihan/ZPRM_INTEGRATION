@@ -1,0 +1,1 @@
+function initModel(){var a="/sap/opu/odata/sap/ZRT_006_OD_WALLET_SRV/";var e=new sap.ui.model.odata.ODataModel(a,true);sap.ui.getCore().setModel(e)}                                                                                                           

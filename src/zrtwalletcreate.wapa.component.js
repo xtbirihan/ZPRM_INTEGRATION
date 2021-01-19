@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","Zrt006/wallet/create/ZRT_006_WALLET_CREATE/model/models","Zrt006/wallet/create/ZRT_006_WALLET_CREATE/helper/MessageHandler"],function(e,t,i,a){"use strict";return e.extend("Zrt006.wallet.create.ZR+
+T_006_WALLET_CREATE.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.getRouter().initialize();this.setModel(i.createDeviceModel(),"device");this.MessageHandler=new a(this)}})});                            

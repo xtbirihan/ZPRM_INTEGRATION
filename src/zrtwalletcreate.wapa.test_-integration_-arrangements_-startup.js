@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";return t.extend("Zrt006.wallet.create.ZRT_006_WALLET_CREATE.test.integration.arrangements.Startup",{iStartMyApp:function(t){var a=t||{};a.delay=a.delay||50;this.iStartMyUIComponent({componentCon+
+fig:{name:"Zrt006.wallet.create.ZRT_006_WALLET_CREATE",async:true},hash:a.hash,autoWait:a.autoWait})}})});                                                                                                                                                     

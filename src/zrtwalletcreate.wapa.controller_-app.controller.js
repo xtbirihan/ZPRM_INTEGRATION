@@ -1,0 +1,1 @@
+sap.ui.define(["Zrt006/wallet/create/ZRT_006_WALLET_CREATE/controller/BaseController"],function(e){"use strict";return e.extend("Zrt006.wallet.create.ZRT_006_WALLET_CREATE.controller.App",{onInit:function(){}})});                                          

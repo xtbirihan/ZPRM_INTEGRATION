@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRT_006</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>ZRT_001 - PO Create Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No Record Found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Please select at least 1 row!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Plant/Store field can&apos;t be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Internal error! Maintain match table!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp; cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Dealar ID: &amp; : &amp; cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Not valid tax type!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Dealar ID: &amp; : &amp;  is not defined at SAP!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Internal error! Not enough assignment for store number!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>All records successfully saved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Dealar ID: &amp; : &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Data successfully read.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Wallet amount can not be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Currency Code must be &apos;SAR&apos;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Transaction date can not be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Slip Number can not be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Dealer ID can not be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Data successfully created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Id:&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>New record.Dealar id: &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Existing record.Dealar id: &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Dealar ID: &amp;.Dealer Id Type cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Dealar ID: &amp;.Dealer Id Link cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Dealar ID: &amp;.Company Code cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Dealar ID: &amp;.Sales Organization cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Dealar ID: &amp;.Tax Classification cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Dealar ID: &amp;.Plant Blocked Date cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Dealar ID: &amp;.Store Name cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Dealar ID: &amp;.City cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Dealar ID: &amp;.District cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Dealar ID: &amp;.Post Code cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Dealar ID: &amp;.Street cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Dealar ID: &amp;.Country cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Dealar ID: &amp;.Currency Code cannot be empty!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Dealar ID: &amp;.Sixth character of postal code must be hyphen ( - )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Dealar ID: &amp;.Not valid tax type!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Dealar ID: &amp;.Company Code is not defined at SAP!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Dealar ID: &amp;.Sales Organization is not defined at SAP!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZRT_006</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Dealar ID: &amp;.Currency code is not defined at SAP!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
